@@ -67,7 +67,7 @@ The Central Bank mints digital currency and distributes funds via regulated enti
 
 The Central Bank directly provides Digital Accounts for all people (Citizens) and Treasury routes funds to the relevant accounts (uniquely and unitarily held by people).
 
-![Payments building block diagrams.drawio - diagrams.net](../../.gitbook/assets/image14.png)
+![Payments building block diagrams.drawio - diagrams.net](../../.gitbook/assets/Picture1.jpg)
 
 * For this payment use case the most common scenarios currently in place are 1 to 4, scenario 5 and 6 could be envisaged later.
 * In Scenario 2B it is assumed that the Payment Switch is run by the Central Bank.
