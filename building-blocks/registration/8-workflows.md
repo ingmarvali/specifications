@@ -23,7 +23,7 @@ As a post-condition, the e-Service has beglossaryen published on the internet fo
 
 User journey is the step by step journey that a user takes to reach their goal. This journey consists of a number of website pages/screens and decision points that carry the user from one step to another. The user journey is used to map out the current journey a typical user might take to reach their goal
 
-![Illustration 6- user journey of creating a registration service. See editable file here.](<../../.gitbook/assets/image11 (1).png>)
+![Illustration 6- user journey of creating a registration service. See editable file here.](../../.gitbook/assets/image11.png)
 
 ### 8.1.3 Interaction with Other Building Blocks <a href="#docs-internal-guid-67b89c8a-7fff-6917-6030-b4cb08422e15" id="docs-internal-guid-67b89c8a-7fff-6917-6030-b4cb08422e15"></a>
 

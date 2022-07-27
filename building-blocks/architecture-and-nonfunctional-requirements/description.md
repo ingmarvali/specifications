@@ -138,7 +138,7 @@ Adapters are responsible for data and protocol translation, authentication, and 
 
 Here we can see two adapters, one for patient records and another for a tax registry:
 
-![(github repo / image - link)](../../.gitbook/assets/j2.png)
+![(github repo / image - link)](<../../.gitbook/assets/image1 (1).png>)
 
 In this example, an HL7 2.5 adapter connects an existing application’s patient record registry, and an SAP SOAP adapter connects an existing applications tax registry to GovStack. Both adapters provide services that are available for use by other building blocks.
 
@@ -160,6 +160,6 @@ Any number of API gateways can be added to expose various GovStack services to u
 
 This shows a complete GovStack deployment with API gateways for citizen access via web or mobile and for existing applications to be able to call GovStack APIs on demand. The workflow building block is used as an adapter, exposing existing applications as GovStack resources via OpenAPI:
 
-![Editable version (open in https://app.diagrams.net/)](<../../.gitbook/assets/image6 (2).png>)
+![(open in https://app.diagrams.net/)](<../../.gitbook/assets/image6 (2).png>)
 
 Here, citizens and existing applications are provided API access for requests into GovStackvia a common API Gateway, while the workflow building block/adapter provides outgoing API access to existing applications from GovStack building blocks.
