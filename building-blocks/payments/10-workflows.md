@@ -51,6 +51,10 @@ At a high level, the payment components used for bulk payments are shown in the 
 
 ![Payments building block diagrams.drawio - diagrams.net](../../.gitbook/assets/image24.png)
 
+Figure: Key digital requirements of Bulk Payments expressed as a high level block diagram. Dotted line for required components.
+
+![Payments building block diagrams.drawio - diagrams.net](../../.gitbook/assets/Picture2.png)
+
 **10.2.1.4 Sequence Diagram**
 
 The sequence diagram shows the flow of data between building blocks for bulk payments workflow.
