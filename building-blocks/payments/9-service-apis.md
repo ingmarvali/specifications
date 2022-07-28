@@ -58,8 +58,7 @@ There are APIs:
 * that connect the Payments Building Block to the Source of Payee (Beneficiary system)
 * for sending bulk payments through the gateway to the FSPs.
 * APIs for doing lookup of identity and maps to valid bank or wallet accounts. As noted previously, third party providers, depending on the topography of the payments landscape in the country may bring additional APIs to connect to the FSPs. Those are out of scope.
-
-APIs for querying the payments building block for information about a batch job, payments made under a specific program over time, and specific payment enquiries for a specific date, beneficiary, or any combination.
+* APIs for querying the payments building block for information about a batch job, payments made under a specific program over time, and specific payment enquiries for a specific date, beneficiary, or any combination.
 
 ## 9.3 From Source Beneficiary System to Payments Building Block
 
