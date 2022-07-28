@@ -55,13 +55,13 @@ Government should leverage third-party aggregators to enable payment use-cases t
 
 A payment switch is not in place or in the process of being deployed. Government should leverage third-party aggregators or bilateral connections to enable payment use-cases to reach mobile money providers. In the bilateral connection scenario, each mobile money provider in the country would connect to the government portal through APIs, enabling a seamless transfer of funds to end users (in the case of G2P payments) or the receiving of funds from end users (in the case of P2G payments) and facilitate reporting, reconciliation and settlement processes.
 
-![Payments building block diagrams.drawio - diagrams.net](<../../.gitbook/assets/image17 (1) (1) (1) (1).png>)
+![Payments building block diagrams.drawio - diagrams.net](<../../.gitbook/assets/image17 (1) (1) (2).png>)
 
 #### 4.2.6 Payment Infrastructure Scenario 5 <a href="#docs-internal-guid-69c7a646-7fff-5eeb-a45c-645b0d3ee524" id="docs-internal-guid-69c7a646-7fff-5eeb-a45c-645b0d3ee524"></a>
 
 The Central Bank mints digital currency and distributes funds via regulated entities (e.g. Payment Service Providers), and in the case of G2P sends funds to destination accounts known to the Ministry of Finance. Account information is unitary and unique for all beneficiaries (e.g. citizens) but the Central Bank does not “hold” account balances on an individual basis.
 
-![Payments building block diagrams.drawio - diagrams.net](<../../.gitbook/assets/image14 (1).png>)
+![Payments building block diagrams.drawio - diagrams.net](../../.gitbook/assets/image14.png)
 
 ### 4.2.7 Payment Infrastructure Scenario 6 <a href="#docs-internal-guid-4df537db-7fff-1474-df07-653ff0c8025e" id="docs-internal-guid-4df537db-7fff-1474-df07-653ff0c8025e"></a>
 

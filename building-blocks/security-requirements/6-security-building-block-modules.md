@@ -111,7 +111,7 @@ The following sequence diagrams depict the basic means by which authentication a
 
 #### **6.4.1.1 User authentication and authorization**
 
-![See https://www.websequencediagrams.com/  for an editable diagram](<../../.gitbook/assets/www.websequencediagrams.com (1).png>)
+![See https://www.websequencediagrams.com/  for an editable diagram](<../../.gitbook/assets/www.websequencediagrams.com (2).png>)
 
 This assumes the user already has an account. Authentication credentials are username or phone number and password.
 

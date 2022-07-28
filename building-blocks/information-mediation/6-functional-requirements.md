@@ -6,7 +6,7 @@ These functional requirements do not define specific APIs - they provide a list 
 
 ## **6.1 Service Access Layer**
 
-![ (github repo / image - link)](<../../.gitbook/assets/image1 (1).png>)
+![ (github repo / image - link)](../../.gitbook/assets/j2.png)
 
 ### **6.1.1 Administrative Interface**
 
