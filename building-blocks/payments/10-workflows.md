@@ -13,7 +13,7 @@ Before bulk payments are made the following are prerequisites:
 Funding requirements
 
 * The funding requirements must operate within the budget/ceiling.
-* The number of funding accounts and the life cycle processes will vary depending on the [payment infrastructure scenarios](https://docs.google.com/document/d/19r8J-2w1IRMNWqeeeBzO7oJ0GR9Nt-DX/edit#heading=h.dab5zm9pv0bq).
+* The number of funding accounts and the life cycle processes will vary depending on the payment infrastructure scenarios.
 
 Bulk payments file
 
