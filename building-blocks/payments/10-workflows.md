@@ -302,8 +302,11 @@ Flow Description:
 Notes:
 
 * There can be no error in the above as both the merchant number and the payment reference are pushed to the phone.
+* The only risk here is a timeout on the USSD or the user keying in the wrong PIN which may require the transaction to be reinitiated.
 
-The only risk here is a timeout on the USSD or the user keying in the wrong PIN which may require the transaction to be reinitiated.
+### 10.4.5 Sequence Diagram - P2G Payment with QR Code
+
+![](../../.gitbook/assets/Picture3.jpg)
 
 Notes:
 
