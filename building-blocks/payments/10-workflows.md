@@ -13,7 +13,7 @@ Before bulk payments are made the following are prerequisites:
 Funding requirements
 
 * The funding requirements must operate within the budget/ceiling.
-* The number of funding accounts and the life cycle processes will vary depending on the [payment infrastructure scenarios](https://docs.google.com/document/d/19r8J-2w1IRMNWqeeeBzO7oJ0GR9Nt-DX/edit#heading=h.dab5zm9pv0bq).
+* The number of funding accounts and the life cycle processes will vary depending on the payment infrastructure scenarios.
 
 Bulk payments file
 
@@ -50,6 +50,10 @@ This workflow requires interaction with the registries building Blocks
 At a high level, the payment components used for bulk payments are shown in the figure below.
 
 ![Payments building block diagrams.drawio - diagrams.net](../../.gitbook/assets/image24.png)
+
+Figure: Key digital requirements of Bulk Payments expressed as a high level block diagram. Dotted line for required components.
+
+![Payments building block diagrams.drawio - diagrams.net](../../.gitbook/assets/Picture2.png)
 
 **10.2.1.4 Sequence Diagram**
 
@@ -298,8 +302,11 @@ Flow Description:
 Notes:
 
 * There can be no error in the above as both the merchant number and the payment reference are pushed to the phone.
+* The only risk here is a timeout on the USSD or the user keying in the wrong PIN which may require the transaction to be reinitiated.
 
-The only risk here is a timeout on the USSD or the user keying in the wrong PIN which may require the transaction to be reinitiated.
+### 10.4.5 Sequence Diagram - P2G Payment with QR Code
+
+![](../../.gitbook/assets/Picture3.jpg)
 
 Notes:
 

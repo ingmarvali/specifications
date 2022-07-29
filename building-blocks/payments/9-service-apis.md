@@ -58,8 +58,7 @@ There are APIs:
 * that connect the Payments Building Block to the Source of Payee (Beneficiary system)
 * for sending bulk payments through the gateway to the FSPs.
 * APIs for doing lookup of identity and maps to valid bank or wallet accounts. As noted previously, third party providers, depending on the topography of the payments landscape in the country may bring additional APIs to connect to the FSPs. Those are out of scope.
-
-APIs for querying the payments building block for information about a batch job, payments made under a specific program over time, and specific payment enquiries for a specific date, beneficiary, or any combination.
+* APIs for querying the payments building block for information about a batch job, payments made under a specific program over time, and specific payment enquiries for a specific date, beneficiary, or any combination.
 
 ## 9.3 From Source Beneficiary System to Payments Building Block
 
@@ -126,7 +125,45 @@ Enroll into a Program
 
 (verb, relating to sending funds in a batch)
 
-## 9.4 From Payments Building Block to Lookup Directories (or Similar) <a href="#docs-internal-guid-242b48cd-7fff-dabe-9b24-4b63c44077d0" id="docs-internal-guid-242b48cd-7fff-dabe-9b24-4b63c44077d0"></a>
+```
+GET/batches
+Get all batches
+
+POST/batches
+Create Scheduled Batch "params": {
+    "name": "Regular Benefits Batch", 
+    "program_id": 1,
+    "date_start": {},
+    "date_end": {}, 
+    "active": true, 
+    "state": "draft",
+    "note": "Note 3",
+    “approved-by”: “person, office”, 
+    “approval-tracking”: “tracking acct num”, 
+    “source”: “Source account”
+    
+    GET/batch/{transaction_batch_id} Get batch details
+
+    POST/map-beneficiaries
+    Mapping Beneficiaries (relates batch to beneficiary) beneficiaries": [
+        {
+        "batch_id": 16,
+        "bank_account_id": 2,
+        "beneficiary_id": 2,
+        "amount": 100,
+        "currency_id": 2, "date_start": {},
+        "date_end": {},
+        "note": "Disbursement for specific purpose payment"
+        },
+    POST/transaction/{transaction_batch_id} Create transaction for batch
+
+    GET/transaction-status/{transaction_batch_id}
+        Transaction Status
+```
+
+see this: ([https://app.swaggerhub.com/apis/rrkas/open-g\_2\_p\_erp/1.0#/](https://app.swaggerhub.com/apis/rrkas/open-g\_2\_p\_erp/1.0%23/))
+
+## 9.4 From Payments Building Block to Lookup Directories (or Similar)
 
 [Account-Lookup Service · GitBook (mojaloop.io)](https://docs.mojaloop.io/documentation/mojaloop-technical-overview/account-lookup-service/)
 
