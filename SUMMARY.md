@@ -6,6 +6,7 @@
 
 ## Building Blocks
 
+* [About Building Blocks](building-blocks/about-building-blocks.md)
 * [Architecture and Nonfunctional Requirements](building-blocks/architecture-and-nonfunctional-requirements/README.md)
   * [2 Description](building-blocks/architecture-and-nonfunctional-requirements/description.md)
   * [3 Terminology](building-blocks/architecture-and-nonfunctional-requirements/3-terminology.md)
