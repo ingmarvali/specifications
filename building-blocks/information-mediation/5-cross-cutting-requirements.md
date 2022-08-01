@@ -1,6 +1,6 @@
 # 5 Cross-cutting requirements
 
-The cross-cutting requirements described in this section are an extension of the cross-cutting requirements defined in the [Architecture Blueprint document](../architecture-and-nonfunctional-requirements/) and the [Security BB definition](../security-requirements/). This section will describe any additional cross-cutting requirements that apply to this building block or differences with the Architecture Blueprint.
+The cross-cutting requirements described in this section are an extension of the cross-cutting requirements defined in the [Architecture Blueprint document](../../architecture-and-nonfunctional-requirements/) and the [Security BB definition](../security-requirements/). This section will describe any additional cross-cutting requirements that apply to this building block or differences with the Architecture Blueprint.
 
 ## **5.1 Architecture Blueprint**
 

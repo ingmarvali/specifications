@@ -1,11 +1,9 @@
 # 10 Other Resources
 
-
-
 * API descriptions in Github\
   [https://github.com/ingmarvali/BuildingBlockAPI/blob/main/RegistrationBB/GovStack\_Registration\_BB\_API\_template-1.1.0-resolved.json](https://github.com/ingmarvali/BuildingBlockAPI/blob/main/RegistrationBB/GovStack\_Registration\_BB\_API\_template-1.1.0-resolved.json)
 * [Security Requirements](../security-requirements/)
-* [Architecture Requirements](../architecture-and-nonfunctional-requirements/)
+* [Architecture Requirements](../../architecture-and-nonfunctional-requirements/)
 * [Information Mediator requirements](../information-mediation/)
 * Logical process blueprint:\
   [https://docs.google.com/document/d/1DRjpuyINjf6YVBRrEh9Q6VdB0zVzq1aqGQOukpktWZ8/edit#heading=h.z0zf4zjfif4c](https://docs.google.com/document/d/1DRjpuyINjf6YVBRrEh9Q6VdB0zVzq1aqGQOukpktWZ8/edit#heading=h.z0zf4zjfif4c)

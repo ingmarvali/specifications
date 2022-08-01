@@ -8,14 +8,14 @@ The following standards are applicable to data structures in the Payments Buildi
 * The transaction data is passed in a format that is compatible with ISO 20022.
 * The voucher number generation should be aligned to 18031:2011 or NIST SP 800A (Recommendation for Random Number Generation Using Deterministic Random Bit Generators), B (Recommendation for Entropy Sources used for Random Bit Generation) and C (Recommendation for Random Bit Generator (RGB) Constructions).
 * Merchant IDs must conform to the Universally unique identifier (UUID).
-* A Merchant Presented Mode dynamic QR code would be recommended (EMV QRCPS v1.1 2020). &#x20;
+* A Merchant Presented Mode dynamic QR code would be recommended (EMV QRCPS v1.1 2020).
 
 ## 11.2 GovStack Resources
 
 * [https://discourse.govstack.global/t/about-the-payments-category/62](https://discourse.govstack.global/t/about-the-payments-category/62)
 * [Information Mediator Building Block Definition](../information-mediation/)
 * [Registration Building Block Definition](../registration/)
-* [Architecture Blueprint and non-functional requirements](../architecture-and-nonfunctional-requirements/)
+* [Architecture Blueprint and non-functional requirements](../../architecture-and-nonfunctional-requirements/)
 * [Security Building Block Definition](../security-requirements/)
 * [Elevator pitches and visual aids](https://docs.google.com/document/d/19j17hkPUSDMGFc1zdRrFTjXlcLM5hkBhyQqyD2AbT1E/edit#heading=h.pnl93n9m7h4l) - Architecture working group
 * [Digital Registries Building Block Definition](../digital-registries/)
