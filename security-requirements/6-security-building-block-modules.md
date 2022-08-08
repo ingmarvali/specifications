@@ -2,7 +2,7 @@
 
 The functional requirements section lists the technical capabilities that the security building block MUST have. Although API Management and Gateway services are an architectural element, this section of the document also describes the detailed functional requirements for implementing API management, governance and gateway services for GovStack. Explicitly, the communications between all building blocks (BB’s) and applications shall be via open API based access.
 
-The goal of this endeavor is to address primary security concerns centrally and create a consistent way of implementing a modern cloud-ready architecture to publish API’s to 3rd parties (both internal and external), govern and manage the access to API’s both internally and externally by policy and create centralized and secure point of access to each and every API endpoint exposed through GovStack. These functional requirements do not define specific APIs (API’s themselves are implemented by [other building blocks](broken-reference/)<mark style="color:blue;">)</mark> - these functional requirements only define the functionality that must be implemented within the bounds of the security building block and how it needs to be applied to other building blocks.
+The goal of this endeavor is to address primary security concerns centrally and create a consistent way of implementing a modern cloud-ready architecture to publish API’s to 3rd parties (both internal and external), govern and manage the access to API’s both internally and externally by policy and create centralized and secure point of access to each and every API endpoint exposed through GovStack. These functional requirements do not define specific APIs (API’s themselves are implemented by [other building blocks](../building-blocks/security-requirements/broken-reference/)<mark style="color:blue;">)</mark> - these functional requirements only define the functionality that must be implemented within the bounds of the security building block and how it needs to be applied to other building blocks.
 
 The following features and functions are required (both functional and non-functional) - see elaboration of these below:
 
@@ -111,7 +111,7 @@ The following sequence diagrams depict the basic means by which authentication a
 
 #### **6.4.1.1 User authentication and authorization**
 
-![See https://www.websequencediagrams.com/  for an editable diagram](<../../.gitbook/assets/www.websequencediagrams.com (2).png>)
+![See https://www.websequencediagrams.com/  for an editable diagram](<../.gitbook/assets/www.websequencediagrams.com (2).png>)
 
 This assumes the user already has an account. Authentication credentials are username or phone number and password.
 
@@ -119,11 +119,11 @@ The auth token could be signed with an expiration (JWT) which might allow the BB
 
 #### **6.4.1.2 Self-registration via phone number or email**
 
-![See https://www.websequencediagrams.com/  for an editable diagram](<../../.gitbook/assets/www.websequencediagrams.com (4).png>)
+![See https://www.websequencediagrams.com/  for an editable diagram](<../.gitbook/assets/www.websequencediagrams.com (4).png>)
 
 #### **6.4.1.3 Self-registration via foundational ID**
 
-For a specification, see the [Identity and Verification Building Block Specification](../identity-and-verification/).
+For a specification, see the [Identity and Verification Building Block Specification](broken-reference).
 
 Note that role creation (e.g. farmers, doctors) is handled by the IAM solution, via either an administration UI or an API. Building blocks can create roles via the API to provision new roles.
 
@@ -133,13 +133,13 @@ The users are authorized with a valid access token for their email or phone numb
 
 #### **6.4.1.4 Self-deprovisioning via foundational ID**
 
-![See https://www.websequencediagrams.com/  for an editable diagram](../../.gitbook/assets/www.websequencediagrams.com.png)
+![See https://www.websequencediagrams.com/  for an editable diagram](../.gitbook/assets/www.websequencediagrams.com.png)
 
 This flow assumes the user has an account and is currently authenticated.
 
 #### **6.4.1.5 Deprovisioning via government official**
 
-![See https://www.websequencediagrams.com/  for an editable diagram](<../../.gitbook/assets/www.websequencediagrams.com (3).png>)
+![See https://www.websequencediagrams.com/  for an editable diagram](<../.gitbook/assets/www.websequencediagrams.com (3).png>)
 
 This flow assumes the user has an account and is currently authenticated.
 
@@ -157,6 +157,6 @@ The security building block predominantly deals with the cross-cutting security 
 
 The sequence diagrams below depict examples of how a building block might interact with the API Management and Gateway solution. This is only relevant for the API Management and Gateway services in the context of the security building block. A higher level sequence diagram depicting API interactions for building blocks is depicted and documented in Architecture Blueprint and Functional Requirements (see Ref 1).
 
-![Example Sequence for Issuing a Token for API Access](<../../.gitbook/assets/image8 (1) (1).png>)
+![Example Sequence for Issuing a Token for API Access](<../.gitbook/assets/image8 (1) (1).png>)
 
-![Example Sequence for Calling an API Microservice via Gatewa](<../../.gitbook/assets/image7 (1) (1) (1).png>)
+![Example Sequence for Calling an API Microservice via Gatewa](<../.gitbook/assets/image7 (1) (1) (1).png>)
