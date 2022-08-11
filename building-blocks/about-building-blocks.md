@@ -8,3 +8,9 @@ Each building block exposes a set of services in the form of REST APIs that can 
 
 In this release of the GovStack specification, the following building blocks are specified:
 
+* [Information Mediation](https://govstack.gitbook.io/bb-information-mediation)
+* [Registration](https://govstack.gitbook.io/bb-registration)
+* [Digital Registries](https://govstack.gitbook.io/bb-digital-registries)
+* [Identity and Verification](https://govstack.gitbook.io/bb-identity)
+* [Payments](https://govstack.gitbook.io/bb-payments)
+
