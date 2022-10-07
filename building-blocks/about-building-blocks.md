@@ -64,3 +64,18 @@ Helps to optimize business processes by specifying rules that govern the sequenc
 
 </details>
 
+<details>
+
+<summary><a href="https://govstack.gitbook.io/bb-messaging/">Messaging</a></summary>
+
+Facilitates notifications, alerts and two-way communications between applications and communications services, including short message service (SMS), unstructured supplementary service data (USSD), interactive voice response (IVR), email and social media platforms.
+
+</details>
+
+<details>
+
+<summary><a href="https://govstack.gitbook.io/bb-scheduler/">Scheduling</a></summary>
+
+Provides an engine for setting up events based on regular intervals or specific combinations of status of several parameters in order to trigger specific tasks in an automated business process.
+
+</details>
